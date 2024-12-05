@@ -1,0 +1,38 @@
+/* All Common Css Start */
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+
+ul,ol {
+  list-style-type: none;
+}
+
+a,a:hover {
+text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+/* All Common Css End */
+.dwnbtn {
+  padding: 15px 40px;
+  background: #6A4DF4;
+  color: white;
+  border-radius: 10px;
+}
+
+.nav-link {
+  padding: 0 15px !important;
+  transition: .4s;
+}
+
+.nav-link:hover {
+color: #6A4DF4;
+}
