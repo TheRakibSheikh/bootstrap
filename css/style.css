@@ -1,5 +1,5 @@
 /* All Common Css Start */
-*{
+* {
   margin: 0;
   padding: 0;
   outline: 0;
@@ -7,19 +7,31 @@
   font-family: "Inter", serif;
 }
 
-ul,ol {
+ul,
+ol {
   list-style-type: none;
 }
 
-a,a:hover {
-text-decoration: none;
+a,
+a:hover {
+  text-decoration: none;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li {
   margin: 0;
   padding: 0;
   line-height: 0.8;
 }
+
 /* All Common Css End */
 .dwnbtn {
   padding: 15px 40px;
@@ -31,8 +43,450 @@ h1,h2,h3,h4,h5,h6,p {
 .nav-link {
   padding: 0 15px !important;
   transition: .4s;
+  color: #fff;
 }
 
 .nav-link:hover {
-color: #6A4DF4;
+  color: #6A4DF4;
 }
+
+/* Banner Part Start */
+#bannerpart {
+  background: url(../Images/agenc-Banner\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banneroverly {
+  padding-top: 330px;
+  padding-bottom: 170px;
+  background: rgba(0, 0, 0, 0.62);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bannercontent h1 {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #fffff;
+  padding-bottom: 65px;
+}
+
+.bannercontent p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  padding: 0 143px;
+  margin-bottom: 60px;
+}
+
+.bannercontent a {
+  font-size: 20px;
+  font-weight: 600;
+  /* line-height: 26px; */
+  color: #fff;
+  padding: 15px 40px;
+  background: #6A4DF4;
+  border-radius: 10px;
+}
+
+/* Banner Part End */
+
+
+/* Counter Part Start */
+#counterpart {
+  padding: 160px 0;
+}
+
+.extracounter {
+  padding: 90px 0;
+  background: #E0FFF9;
+  border-radius: 20px;
+}
+
+.counterleft {
+  padding-left: 45px;
+}
+
+.counterleft h4 {
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color: #6A4DF4;
+}
+
+.counterleft h3 {
+  font-size: 35px;
+  font-weight: 600;
+  padding-right: 177px;
+  line-height: 120%;
+}
+
+.counterItem h3 {
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  color: #151515;
+}
+
+.counterItem p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #737373;
+}
+
+/* Counter Part End */
+
+/* Our Service Part Start */
+#servicepart {
+  padding-bottom: 100px;
+}
+
+.ourservicetext h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #151515;
+  padding-bottom: 25px;
+}
+
+.ourservicetext p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #737373;
+  padding-bottom: 50px;
+}
+
+.serviceItem {
+  padding: 50px;
+  transition: .4s;
+}
+
+.servicetext h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #151515;
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+
+.serviceItem p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #737373;
+}
+
+.serviceItem:hover {
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+
+/* Our Service Part End */
+
+
+/* Recent Woark Part Start */
+#recentWoarkpart {
+  padding-top: 160px;
+  padding-bottom: 115px;
+  background: #F3F3F3;
+}
+
+.recentwoarktext h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #151515;
+  padding-bottom: 35px;
+}
+
+.recentwoarktext p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #737373;
+  margin-bottom: 50px;
+}
+
+
+
+.recentItemtext {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.recentItemtext h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #151515;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.recentItempic img {
+  width: 100%;
+}
+
+.recentItemtext p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #737373;
+  padding: 0 20px;
+}
+
+.woarkitem {
+  background: #fff;
+  border-radius: 20px;
+}
+
+/* Recent Woark Part End */
+
+
+/* Agenc Part Start */
+#agencpart {
+  padding: 150px 0;
+}
+
+.agencheadtext h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #151515;
+  line-height: 54px;
+  padding: 0 114px;
+  margin-bottom: 20px;
+}
+
+.agencheadtext p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+  line-height: 26px;
+  padding: 0 12px;
+  margin-bottom: 120px;
+}
+
+.agencItemtext h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #151515;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.agencItemtext p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #151515;
+  line-height: 26px;
+  color: #737373;
+  padding-right: 14px;
+}
+
+.ptc {
+  padding-top: 70px;
+}
+
+.agencimage {
+  padding-top: 20px;
+}
+
+/* Agenc Part End */
+
+/* Reviews Part Start */
+
+#reviewpart {
+  padding-bottom: 100px;
+}
+
+.reviewHtext h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #151515;
+  padding-bottom: 30px;
+}
+
+.reviewHtext p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #737373;
+  padding-bottom: 150px;
+}
+
+.reviewtext p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #7B7B7B;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.fivestaricon {
+  padding-bottom: 30px;
+}
+
+.fivestaricon i {
+  color: #F9BD2C;
+}
+
+.propileicon {
+  display: flex;
+}
+
+
+.propileright h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.propileright p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #7B7B7B;
+}
+
+.propileright {
+  padding-left: 20px;
+}
+
+.reviewItem {
+  padding: 40px;
+  border-radius: 20px;
+  transition: .4s;
+  /* margin-bottom: 100px; */
+}
+
+.reviewItem:hover {
+  background: #F4EFEF;
+}
+
+/* Reviews Part End */
+
+/* Login Part Start */
+#loginpart {
+  padding: 0 100px;
+  background: #F3F3F3;
+}
+
+.loginleftText h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #151515;
+  /* padding-right: 65px; */
+  line-height: 54px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+.loginleftText p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7B7B7B;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.loginleftText span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7B7B7B;
+  line-height: 26px;
+}
+
+.contactfrom {
+  background: #FFFFFF;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contactfrom input::placeholder {
+  color: #D0D0D0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contactfrom input {
+  padding: 10px;
+}
+
+.contactfrom button {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.headTextform h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  padding-bottom: 40px;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Login Part End */
+
+/* last part start */
+#lastPart {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.logotext p {
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #7B7B7B;
+}
+
+.aboutText h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+
+.lastItem ul li {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.lastItem {
+  padding-top: 30px;
+}
+
+.lastdag {
+  height: 1px;
+  width: 100%;
+  background: #E8E8E8;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.caridttext p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #D0D0D0;
+}
+/* last part End */
