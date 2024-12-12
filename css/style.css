@@ -38,6 +38,16 @@ li {
   background: #6A4DF4;
   color: white;
   border-radius: 10px;
+  transition: .4s;
+}
+
+.dwnbtn:hover{
+  background: #ffff00;
+  color: black;
+}
+
+.navbar {
+  padding-top: 30px;
 }
 
 .nav-link {
@@ -96,8 +106,13 @@ li {
   padding: 15px 40px;
   background: #6A4DF4;
   border-radius: 10px;
+  transition: .4s;
 }
 
+.bannercontent a:hover {
+  background: #ffff00;
+  color: black;
+}
 /* Banner Part End */
 
 
@@ -167,7 +182,7 @@ li {
 }
 
 .serviceItem {
-  padding: 50px;
+  padding: 30px;
   transition: .4s;
 }
 
@@ -182,7 +197,7 @@ li {
 .serviceItem p {
   font-size: 15px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 26px;
   color: #737373;
 }
 
@@ -309,6 +324,15 @@ li {
   padding-bottom: 100px;
 }
 
+.reviewiconimg i {
+  color: #878787;
+  transition: .4s;
+}
+
+.reviewItem:hover .reviewiconimg i {
+  color: #78787882;
+}
+
 .reviewHtext h2 {
   font-size: 45px;
   font-weight: 700;
@@ -317,7 +341,7 @@ li {
 }
 
 .reviewHtext p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 26px;
   color: #737373;
@@ -325,7 +349,7 @@ li {
 }
 
 .reviewtext p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 26px;
   color: #7B7B7B;
@@ -374,6 +398,7 @@ li {
   background: #F4EFEF;
 }
 
+
 /* Reviews Part End */
 
 /* Login Part Start */
@@ -393,7 +418,7 @@ li {
 }
 
 .loginleftText p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #7B7B7B;
   line-height: 26px;
@@ -401,7 +426,7 @@ li {
 }
 
 .loginleftText span {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #7B7B7B;
   line-height: 26px;
@@ -440,6 +465,7 @@ li {
 .btn {
   margin-top: 10px;
   width: 100%;
+  background: #6A4DF4;
 }
 
 /* Login Part End */
@@ -450,12 +476,14 @@ li {
   padding-bottom: 20px;
 }
 
+
 .logotext p {
   padding-top: 30px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 26px;
   color: #7B7B7B;
+  padding-right: 37px;
 }
 
 .aboutText h3 {
