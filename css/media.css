@@ -1,0 +1,85 @@
+
+ /* Extra large devices  */
+@media (min-width: 1200px) { }
+
+ /* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+
+ /* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) { }
+
+
+ /* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+ /* Extra small devices  */
+ @media (max-width: 575.98px) { 
+  /* Navabr Responsib start */
+  .navbar-toggler i {
+    color: #fff;
+    font-size: 30px;
+    padding-right: 22px;
+  }
+
+  .navbar-nav{
+    text-align: center;
+    background: rgb(33, 56, 100);
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }     
+  /* Navabr Responsib End */
+.bannercontent h1 {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 120%;
+	color: #fff;
+	padding-bottom: 65px;
+}
+  
+  .contactdiv {
+    text-align: center;
+  }
+
+  .bannercontent p {
+    font-size: 14px;
+    padding: 0 42px;
+  }
+
+  .bannercontent a {
+    font-size: 12px;
+  }
+
+  .counterleft h4 {
+    text-align: center;
+  }
+
+  .counterleft h3 {
+    font-size: 32px;
+    text-align: center;
+    padding-right: 0;
+  }
+
+.counterItem {
+  text-align: center;
+}
+
+  .counterItem h3 {
+    text-align: center;
+  }
+
+  .counterleft {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .ourservicetext h2 {
+    font-size: 40px;
+    line-height: 120%;
+  }
+  .recentwoarktext h2 {
+    font-size: 35px;
+  }
+
+
+ }
